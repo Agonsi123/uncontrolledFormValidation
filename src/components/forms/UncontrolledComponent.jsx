@@ -52,7 +52,7 @@ const handleSubmit = (e) => {
                 ref={firstNameRef} 
                 />
                 {/* My code for take home */}
-                <div className='text-[10px] -ml-24 md:-ml-7'>
+                <div className='text-[10px] -ml-24 md:-ml-7 mb-2'>
                     {errors.firstname && <span style={{color:'red'}}>{errors.firstname}</span>}
                 </div>
             </div>
@@ -63,7 +63,7 @@ const handleSubmit = (e) => {
                 ref={lastNameRef} 
                 />
                 {/* My code for take home */}
-                <div className='text-[10px] -ml-24 md:-ml-2'>
+                <div className='text-[10px] -ml-24 md:-ml-2 mb-2'>
                     {errors.lastname && <span style={{color:'red'}}>{errors.lastname}</span>}
                 </div>
             </div>
@@ -74,7 +74,7 @@ const handleSubmit = (e) => {
                 ref={emailRef} 
                 />
                 {/* My code for take home */}
-                <div className='text-[10px] -ml-28 md:-ml-44'>
+                <div className='text-[10px] -ml-28 md:-ml-44 mb-2'>
                     {errors.email && <span style={{color:'red'}}>{errors.email}</span>}
                 </div>
             </div>
@@ -85,7 +85,7 @@ const handleSubmit = (e) => {
                 ref={phoneNumberRef} 
                 />
                 {/* My code for take home */}
-                <div className='text-[10px] ml-[-4.2rem] md:-ml-32'>
+                <div className='text-[10px] ml-[-4.2rem] md:-ml-32 mb-2'>
                     {errors.phone && <span style={{color:'red'}}>{errors.phone}</span>}
                 </div>
             </div>
